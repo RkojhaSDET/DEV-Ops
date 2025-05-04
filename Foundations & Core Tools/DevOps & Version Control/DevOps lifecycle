@@ -1,0 +1,63 @@
+# Dev-Ops life cycle 
+
+# Quick Quiz (5 Questions)
+1. What is DevOps and what problem does it aim to solve in software development and operations?
+
+2. List the stages in the DevOps lifecycle in order.
+
+3. What are two key differences between DevOps and SRE?
+
+4. What does CI/CD stand for and why is it critical in DevOps?
+
+5. Name two practices that help reduce “toil” in operations (according to SRE principles).
+
+
+===================================================================================================================
+
+1. DevOps is a combination of cultural philosophies, practices, and tools that enhances an organization’s ability to deliver applications and services at high velocity. It breaks down silos between development and operations teams, promotes collaboration, and automates processes like testing, deployment, and monitoring.
+
+2. Plan → Develop → Build → Test → Release → Deploy → Operate → Monitor
+
+The standard DevOps lifecycle typically includes these stages:
+
+Plan – Define the scope and requirements.
+
+Develop – Write the code.
+
+Build – Compile and package the code.
+
+Test – Run automated tests.
+
+Release – Prepare the app for deployment.
+
+Deploy – Deploy to production or staging.
+
+Operate – Manage infrastructure and app runtime.
+
+Monitor - Monitor the application for future improvment like framework/ Sceurity/performance etc.
+
+3. DevOps is a cultural and technical practice that aims to unify software development and operations through automation, collaboration, and CI/CD pipelines.
+SRE (Site Reliability Engineering) is an engineering role or discipline that ensures systems are reliable, scalable, and efficient—often by applying software engineering to infrastructure and operations.
+
+| DevOps                         | SRE                                         |
+| ------------------------------ | ------------------------------------------- |
+| Broad team culture & practices | Specific engineering discipline (by Google) |
+| Focus on speed + automation    | Focus on reliability + resilience           |
+| No fixed implementation        | Uses SLIs, SLOs, error budgets              |
+
+
+4. CI/CD stands for Continuous Integration and Continuous Delivery (or Deployment).
+
+Continuous Integration (CI): Developers frequently merge code into a shared repository. Each commit triggers automated builds and tests to detect issues early.
+
+Continuous Delivery/Deployment (CD): The application is automatically delivered (or deployed) to staging or production environments, reducing manual steps and making releases faster and safer.
+
+💡 CD can mean either Delivery (ready for manual release) or Deployment (automatically goes to production) depending on context.
+
+5. Two Practices That Help Reduce Toil:
+Automation – Using scripts or tools to automate repetitive tasks like deployments, backups, and scaling.
+
+Self-healing Systems – Systems that automatically detect and fix issues (like restarting failed pods in Kubernetes).
+
+
+
